@@ -1,0 +1,10 @@
+{
+  "name": "verify-user-token",
+  "version": "1.0.0",
+  "description": "Demonstrate verification of user token from DoubleDutch SDK",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adam Liechty"
+}
