@@ -6,5 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Adam Liechty"
+  "author": "Adam Liechty",
+  "dependencies": {
+    "node-rsa": "^0.2.23"
+  }
 }
