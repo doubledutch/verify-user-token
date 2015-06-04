@@ -3,7 +3,7 @@ var RSA = require('node-rsa');
 var publicKeyBase64 = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnqCN6WNflUHWV11Kn/es Wa8mAiU75rv2TfJmS3EADny0h4duBobHhj4CsPsMOsVrubDL3wMEtN3/oyS7Iw1f nOXUxp/woN1G+Es+5gSOgMea4o4JSpbyDWD5dL58eAs9mxnT8n/035peMHr+7Um9 xZLG2pBuFrOi3IVcAa4iWrX2tx1XKUgi+5UnncB3jYRh70VhcnRVFM8xmavUpTZ5 LvIBxiFqiBe9TGTkLjvm7VqyCjIcjop7rPc2xYSehSBjp7vus8eI/9oW7JcsxGAu RNKxFA7deJ8zNWCr4h8uT3I5RNnh+7jXqQso2oOVIY5hSunDlT0rB9kgjava1QDY EQIDAQAB'
 var publicKeyData = '-----BEGIN PUBLIC KEY-----\n' +
 publicKeyBase64 +
-+ '\n-----END PRIVATE KEY-----';
++ '\n-----END PUBLIC KEY-----';
 
 var publicKey = new RSA(publicKeyData, 'public');
 
