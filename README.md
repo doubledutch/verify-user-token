@@ -9,4 +9,4 @@ npm install
 npm start
 ```
 
-View the sample code: [index.js](blob/master/index.js)
+View the sample code: [index.js](index.js)
