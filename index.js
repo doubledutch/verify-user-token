@@ -27,7 +27,7 @@ console.log('payload (length=' + payload.length  + '): '+ payload + '\n');
 
 // 3. Read the rest of the token
 var signedHash = tokenBuffer.slice(nullIndex + 1);
-console.log('signedHash (length=' + signedHash.length + '): ' + signedHash.toString('base64') + '\n');
+console.log('signedHash (byte length=' + signedHash.length + '): ' + signedHash.toString('base64') + '\n');
 
 // 4. Verify the signature of the signedHash against the payload using the provided PUBLIC key.
 var isHashVerified = publicKey.verify(payload, signedHash, 'utf8');
